@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.logo {
+  width: 150px;
+}
+body {
+  background-color: hsl(227, 27%, 67%)
+}
+
+header {
+  background-color: hsl(227, 17%, 56%);
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  padding-left: 10px;
+  border-color: hsl(230, 50%, 50%);
+  border-style: double;
+  border-width: 5px;
+  padding-right: 75px;
+}
+
+.brand-identity {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.title-group {
+  display: inline;
+}
+
+.title-group > h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 55px;
+}
+
+.title-group > p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header > nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.offsite-navigation {
+  display: inline-block;
+  padding: 1rem;
+  background-color: hsla(227, 17%, 60%, 0.9);
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+
+.offsite-navigation + .offsite-navigation {
+  margin-left: 1px;
+}
+
+main {
+  display: block;
+}
+.nirvana {
+  padding: 20px;
+  width: 575px;
+  height: 575px;
+}
+
+.image-set {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.main-section > div {
+  display: inline-block;
+  background-color: hsl(227, 17%, 56%);
+  border-style: solid;
+  border-color: hsl(230, 59%, 26%);
+  border-width: 2px;
+  margin: 20px;
+}
+
+.main-section > div > p {
+  margin: 5px;
+}
+
+.guitar {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.footer {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 5px; 
+  background-color: hsl(227, 17%, 56%);
+  border-style: double;
+  border-color: hsl(230, 50%, 50%);
+  border-width: 5px;
+}
+
+.footer > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  border-style: double;
+  border-color: hsl(230, 59%, 26%);
+  border-width: 5px;
+}
+
+.instagram {
+  padding-top: 3px;
+  width: 65px;
+  height: 65px;
+}
